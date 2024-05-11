@@ -1,0 +1,7 @@
+sudo apt install ansible
+ansible --version
+ansible-inventory --list
+mkdir Ansible && cd Ansible
+nano inventory -i inventory inventory --list
+nano install.yml
+ancible-paybook install.yml
