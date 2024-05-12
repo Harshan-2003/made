@@ -4,4 +4,7 @@ ansible-inventory --list
 mkdir Ansible && cd Ansible
 nano inventory -i inventory inventory --list
 nano install.yml
-ancible-paybook install.yml
+ansible-paybook install.yml
+
+
+for creation of a role: ansible-galaxy init singleurl
