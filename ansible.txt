@@ -6,4 +6,5 @@ nano inventory -i inventory inventory --list
 nano install.yml
 ansible-playbook install.yml
 
+mkdir roles && cd roles
 for creation of a role: ansible-galaxy init singleurl
